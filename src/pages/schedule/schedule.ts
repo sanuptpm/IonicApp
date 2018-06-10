@@ -13,6 +13,7 @@ import { UserData } from '../../providers/user-data';
 
 import { SessionDetailPage } from '../session-detail/session-detail';
 import { ScheduleFilterPage } from '../schedule-filter/schedule-filter';
+import { RouteData } from '../../providers/route-data';
 
 
 @Component({
@@ -43,11 +44,16 @@ export class SchedulePage {
     public toastCtrl: ToastController,
     public confData: ConferenceData,
     public user: UserData,
+    public routeData: RouteData
   ) {}
 
   ionViewDidLoad() {
     this.app.setTitle('Schedule');
     this.updateSchedule();
+    this.routeData.load().subscribe((data: any) => {
+      console.log("DDDDDATTTA", data.json());
+      
+    })
   }
 
   updateSchedule() {

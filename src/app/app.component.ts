@@ -18,6 +18,7 @@ import { SupportPage } from '../pages/support/support';
 
 import { ConferenceData } from '../providers/conference-data';
 import { UserData } from '../providers/user-data';
+import { RouteData } from '../providers/route-data';
 
 export interface PageInterface {
   title: string;
@@ -66,7 +67,8 @@ export class ConferenceApp {
     public platform: Platform,
     public confData: ConferenceData,
     public storage: Storage,
-    public splashScreen: SplashScreen
+    public splashScreen: SplashScreen,
+    public routeData: RouteData
   ) {
 
     // Check if the user has already seen the tutorial
@@ -82,7 +84,7 @@ export class ConferenceApp {
 
     // load the conference data
     confData.load();
-
+    routeData.load();
     // decide which menu items should be hidden by current login status stored in local storage
     this.userData.hasLoggedIn().then((hasLoggedIn) => {
       this.enableMenu(hasLoggedIn === true);

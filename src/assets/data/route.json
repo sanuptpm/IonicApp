@@ -1,0 +1,348 @@
+{
+    "train": {
+        "name": "PUNALUR PASSENGER",
+            "classes": [
+                {
+                    "name": "SECOND AC",
+                    "available": "-",
+                    "code": "2A"
+                },
+                {
+                    "name": "SECOND SEATING",
+                    "available": "-",
+                    "code": "2S"
+                },
+                {
+                    "name": "AC CHAIR CAR",
+                    "available": "-",
+                    "code": "CC"
+                },
+                {
+                    "name": "THIRD AC",
+                    "available": "-",
+                    "code": "3A"
+                },
+                {
+                    "name": "FIRST CLASS",
+                    "available": "-",
+                    "code": "FC"
+                },
+                {
+                    "name": "3rd AC ECONOMY",
+                    "available": "-",
+                    "code": "3E"
+                },
+                {
+                    "name": "SLEEPER CLASS",
+                    "available": "-",
+                    "code": "SL"
+                },
+                {
+                    "name": "FIRST AC",
+                    "available": "-",
+                    "code": "1A"
+                }
+            ],
+                "number": "56716",
+                    "days": [
+                        {
+                            "code": "MON",
+                            "runs": "Y"
+                        },
+                        {
+                            "code": "TUE",
+                            "runs": "Y"
+                        },
+                        {
+                            "code": "WED",
+                            "runs": "Y"
+                        },
+                        {
+                            "code": "THU",
+                            "runs": "Y"
+                        },
+                        {
+                            "code": "FRI",
+                            "runs": "Y"
+                        },
+                        {
+                            "code": "SAT",
+                            "runs": "Y"
+                        },
+                        {
+                            "code": "SUN",
+                            "runs": "Y"
+                        }
+                    ]
+    },
+    "route": [
+        {
+            "station": {
+                "name": "KANYAKUMARI",
+                "lng": 77.5499338,
+                "lat": 8.079252,
+                "code": "CAPE"
+            },
+            "no": 1,
+            "distance": 0,
+            "scharr": "SOURCE",
+            "day": 1,
+            "schdep": "14:35",
+            "halt": -1
+        },
+        {
+            "station": {
+                "name": "NAGERCOIL JN",
+                "lng": 77.4440221,
+                "lat": 8.1746848,
+                "code": "NCJ"
+            },
+            "no": 2,
+            "distance": 16,
+            "scharr": "14:55",
+            "day": 1,
+            "schdep": "15:00",
+            "halt": 5
+        },
+        {
+            "station": {
+                "name": "ERANIEL",
+                "lng": 77.3170625,
+                "lat": 8.2067853,
+                "code": "ERL"
+            },
+            "no": 3,
+            "distance": 34,
+            "scharr": "15:20",
+            "day": 1,
+            "schdep": "15:21",
+            "halt": 1
+        },
+        {
+            "station": {
+                "name": "KULITTHURAI",
+                "lng": 77.2186862,
+                "lat": 8.301298899999999,
+                "code": "KZT"
+            },
+            "no": 4,
+            "distance": 49,
+            "scharr": "15:35",
+            "day": 1,
+            "schdep": "15:36",
+            "halt": 1
+        },
+        {
+            "station": {
+                "name": "PARASSALA",
+                "lng": 77.1547766,
+                "lat": 8.3428993,
+                "code": "PASA"
+            },
+            "no": 5,
+            "distance": 57,
+            "scharr": "15:46",
+            "day": 1,
+            "schdep": "15:47",
+            "halt": 1
+        },
+        {
+            "station": {
+                "name": "DHANU VACHA PURAM HA",
+                "lng": 77.1249212,
+                "lat": 8.3793167,
+                "code": "DAVM"
+            },
+            "no": 6,
+            "distance": 63,
+            "scharr": "15:52",
+            "day": 1,
+            "schdep": "15:53",
+            "halt": 1
+        },
+        {
+            "station": {
+                "name": "NEYYATTINKARA",
+                "lng": 77.0816945,
+                "lat": 8.4101683,
+                "code": "NYY"
+            },
+            "no": 7,
+            "distance": 69,
+            "scharr": "16:05",
+            "day": 1,
+            "schdep": "16:06",
+            "halt": 1
+        },
+        {
+            "station": {
+                "name": "BALARAMAPURAM",
+                "lng": 77.0460312,
+                "lat": 8.4244198,
+                "code": "BRAM"
+            },
+            "no": 8,
+            "distance": 73,
+            "scharr": "16:12",
+            "day": 1,
+            "schdep": "16:13",
+            "halt": 1
+        },
+        {
+            "station": {
+                "name": "NEMAM",
+                "lng": 80.0275678,
+                "lat": 13.0771565,
+                "code": "NEM"
+            },
+            "no": 9,
+            "distance": 79,
+            "scharr": "16:19",
+            "day": 1,
+            "schdep": "16:20",
+            "halt": 1
+        },
+        {
+            "station": {
+                "name": "THIRUVANANTHAPURAM CENTRAL",
+                "lng": 76.9525968,
+                "lat": 8.4869485,
+                "code": "TVC"
+            },
+            "no": 10,
+            "distance": 87,
+            "scharr": "16:55",
+            "day": 1,
+            "schdep": "17:00",
+            "halt": 5
+        },
+        {
+            "station": {
+                "name": "KAZHAKUTTAM",
+                "lng": 76.873005,
+                "lat": 8.5570891,
+                "code": "KZK"
+            },
+            "no": 11,
+            "distance": 100,
+            "scharr": "17:15",
+            "day": 1,
+            "schdep": "17:16",
+            "halt": 1
+        },
+        {
+            "station": {
+                "name": "VARKALA",
+                "lng": 76.7080221,
+                "lat": 8.7352627,
+                "code": "VAK"
+            },
+            "no": 12,
+            "distance": 128,
+            "scharr": "17:39",
+            "day": 1,
+            "schdep": "17:40",
+            "halt": 1
+        },
+        {
+            "station": {
+                "name": "KOLLAM JN",
+                "lng": 76.5906837,
+                "lat": 8.8870941,
+                "code": "QLN"
+            },
+            "no": 13,
+            "distance": 151,
+            "scharr": "18:20",
+            "day": 1,
+            "schdep": "18:35",
+            "halt": 15
+        },
+        {
+            "station": {
+                "name": "KILIKOLLUR",
+                "lng": 76.6326602,
+                "lat": 8.9178259,
+                "code": "KLQ"
+            },
+            "no": 14,
+            "distance": 157,
+            "scharr": "18:44",
+            "day": 1,
+            "schdep": "18:45",
+            "halt": 1
+        },
+        {
+            "station": {
+                "name": "KUNDARA",
+                "lng": 8.69258,
+                "lat": 11.8263,
+                "code": "KUV"
+            },
+            "no": 15,
+            "distance": 164,
+            "scharr": "18:55",
+            "day": 1,
+            "schdep": "18:56",
+            "halt": 1
+        },
+        {
+            "station": {
+                "name": "EZHUKONE",
+                "lng": 76.719235,
+                "lat": 8.980645,
+                "code": "EKN"
+            },
+            "no": 16,
+            "distance": 169,
+            "scharr": "19:05",
+            "day": 1,
+            "schdep": "19:06",
+            "halt": 1
+        },
+        {
+            "station": {
+                "name": "KOTTARAKARA",
+                "lng": 76.7830042,
+                "lat": 9.0054061,
+                "code": "KKZ"
+            },
+            "no": 17,
+            "distance": 176,
+            "scharr": "19:15",
+            "day": 1,
+            "schdep": "19:16",
+            "halt": 1
+        },
+        {
+            "station": {
+                "name": "AUVANESWSAREM",
+                "lng": 76.8532674,
+                "lat": 9.0369929,
+                "code": "AVS"
+            },
+            "no": 18,
+            "distance": 187,
+            "scharr": "19:29",
+            "day": 1,
+            "schdep": "19:30",
+            "halt": 1
+        },
+        {
+            "station": {
+                "name": "PUNALUR",
+                "lng": 76.9260419,
+                "lat": 9.0177129,
+                "code": "PUU"
+            },
+            "no": 19,
+            "distance": 195,
+            "scharr": "20:10",
+            "day": 1,
+            "schdep": "DEST",
+            "halt": -1
+        }
+    ],
+        "debit": 1,
+            "response_code": 200
+}
